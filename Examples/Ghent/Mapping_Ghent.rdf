@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/0">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/4">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/spatial"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/spatial"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/5">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/page"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/hasChannel"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/6">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/9">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://schema.org/keywords"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/dcat#keyword"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/10">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/description"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/description"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/11">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/title"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/12">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/vocab/cpsv#follows"/>
+	<rdfs:Class rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#follows"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+</rdf:RDF>

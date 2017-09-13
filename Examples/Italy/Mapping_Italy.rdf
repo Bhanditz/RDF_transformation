@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/0">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/1">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/2">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/description"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/description"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/4">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/5">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#keyword"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/dcat#keyword"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/9">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/language"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/language"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/10">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasInput"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#hasInput"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/11">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#produces"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#produces"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/13">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasStatus"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/adms#status"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/14">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasCost"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/hasCost"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/15">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/isGroupedBy"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/16">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasContactPoint"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/hasContactPoint"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/18">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#follows"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#follows"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/19">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://127.0.0.1:3362/http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fspatial+"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/spatial"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/20">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#relation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/relation"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/21">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasChannel"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/hasChannel"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/23">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasEmail"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/hasChannel"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/24">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasPhone"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/hasChannel"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/25">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#hasWebSite"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#PublicService"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/hasChannel"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#PublicService"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/26">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Channel"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/Channel"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/27">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Channel"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/29">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/Channel"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/30">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/2006/vcard/ns#TelephoneType"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/32">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Phone"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/Channel"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/33">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Phone"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/35">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#OfflineChannel"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/Channel"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/36">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#OfflineChannel"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/37">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Email"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/Channel"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/38">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Email"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/39">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/Channel"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/40">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/2006/vcard/ns#Email"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/41">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#WebSite"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/Channel"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/42">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#WebSite"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Channel"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/56">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class	rdf:resource="http://www.w3.org/ns/locn#Address"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/locn#Address"/>
+	<skos:inScheme rdf:resource="http://www.w3.org/ns/locn#Address"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/57">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://www.w3.org/ns/locn#addressID"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/ns/locn#Address"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/locn#addressID"/>
+	<skos:inScheme rdf:resource="http://www.w3.org/ns/locn#Address"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/58">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://www.w3.org/ns/locn#fullAddress"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/ns/locn#Address"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/locn#fullAddress"/>
+	<skos:inScheme rdf:resource="http://www.w3.org/ns/locn#Address"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/59">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://www.w3.org/ns/locn#adminLevel2"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/ns/locn#Address"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/locn#adminLevel2"/>
+	<skos:inScheme rdf:resource="http://www.w3.org/ns/locn#Address"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/60">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://www.w3.org/ns/locn#postCode"/>
+	<rdfs:Class rdf:resource="http://www.w3.org/ns/locn#Address"/>
+	<skos:exactMatch rdf:resource="http://www.w3.org/ns/locn#postCode"/>
+	<skos:inScheme rdf:resource="http://www.w3.org/ns/locn#Address"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/61">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Event"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/Event"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Event"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/62">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Event"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Event"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/63">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Event"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Event"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/64">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Event"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Event"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/65">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Event"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/relation"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Event"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/67">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#LifeEvent"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/68">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#LifeEvent"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/69">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#LifeEvent"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/70">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#LifeEvent"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/71">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#LifeEvent"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/relation"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/LifeEvent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/76">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class	rdf:resource="http://dati.gov.it/onto/cpsvapit#Cost"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/Cost"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Cost"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/77">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://www.w3.org/2006/vcard/ns#value"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Cost"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/value"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Cost"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/78">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#currency"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Cost"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/currency"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Cost"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/79">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/description"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Cost"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/description"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Cost"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/85">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="https://www.w3.org/TR/vocab-org/FormalOrganization"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/86">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<rdfs:Class rdf:resource="https://www.w3.org/TR/vocab-org/FormalOrganization"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/87">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="https://www.w3.org/TR/vocab-org/FormalOrganization"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/89">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#playsARoleInTime"/>
+	<rdfs:Class rdf:resource="https://www.w3.org/TR/vocab-org/FormalOrganization"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/playsRole"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/PublicOrganisation"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/107">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Agent"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/Agent"/>
+	<skos:inScheme rdf:resource="http://purl.org/dc/terms/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/108">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://127.0.0.1:3362/http%3A%2F%2Fpurl.org%2Fdc%2Fterms%2Fidentifier++"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Agent"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<skos:inScheme rdf:resource="http://purl.org/dc/terms/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/109">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Agent"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://purl.org/dc/terms/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/110">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#playsARoleInTime"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Agent"/>
+	<skos:closeMatch rdf:resource="http://data.europa.eu/m8g/playsRole"/>
+	<skos:inScheme rdf:resource="http://purl.org/dc/terms/Agent"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/119">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Rule"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#Rule"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#Rule"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/120">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/title"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Rule"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#Rule"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/121">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/description"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Rule"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/description"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#Rule"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/122">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/cpsvapit#implements"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Rule"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#implements"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#Rule"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/124">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Requirement"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/125">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Requirement"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/126">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Requirement"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/CriterionRequirement"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/130">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#FormalFramework"/>
+	<skos:exactMatch rdf:resource="http://purl.org/vocab/cpsv#FormalFramework"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#FormalFramework"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/131">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/title"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#FormalFramework"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#FormalFramework"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/132">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/description"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#FormalFramework"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/description"/>
+	<skos:inScheme rdf:resource="http://purl.org/vocab/cpsv#FormalFramework"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/133">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Input"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/134">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Input"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/135">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Input"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/136">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://dati.gov.it/onto/dcatapit#referenceDoc"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Input"/>
+	<skos:exactMatch rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Evidence"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/137">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Output"/>
+	<skos:exactMatch rdf:resource="http://data.europa.eu/m8g/Output"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Output"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/138">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://xmlns.com/foaf/0.1/name"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Output"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/title"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Output"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="http://127.0.0.1:3362/139">
+	<rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#mappingRelation"/>
+	<rdf:Property rdf:resource="http://purl.org/dc/terms/type"/>
+	<rdfs:Class rdf:resource="http://dati.gov.it/onto/cpsvapit#Output"/>
+	<skos:exactMatch rdf:resource="http://purl.org/dc/terms/type"/>
+	<skos:inScheme rdf:resource="http://data.europa.eu/m8g/Output"/>
+</rdf:Description>
+
+</rdf:RDF>

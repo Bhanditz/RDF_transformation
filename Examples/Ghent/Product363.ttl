@@ -1,0 +1,33 @@
+@prefix dct:	<http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix n8:	<https://stad.gent/id/products/gebieden/> .
+@prefix n4:	<https://stad.gent/data/products/> .
+@prefix n2:	<https://stad.gent/id/products/> .
+@prefix n12:	<https://stad.gent/data/products/363/> .
+@prefix n11:	<http://stad.gent/data/ns/themas/> .
+@prefix n5:	<http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix n14:	<https://stad.gent/node/> .
+@prefix n6:	<http://stad.gent/data/ns/gpdc/doelgroepen/> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix n9:	<http://purl.org/vocab/cpsv#> .
+@prefix xsdh: <http://www.w3.org/2001/XMLSchema#> .
+@prefix n10:	<https://stad.gent/id/products/363/> .
+@prefix n15:	<http://publications.europa.eu/resource/authority/place/> .
+	
+n2:363 rdf:type n9:PublicService ;
+	dct:created "2014-11-14T10:56:46+01:00" ;
+	dct:modified "2015-09-11T13:47:16+02:00" ;
+	rdfs:isDefinedBy n4:363, n12:procedure ;
+	foaf:page n14:25749 ;
+	dct:identifier 363 ;
+	dct:subject n11:welzijn-gezondheid ;
+	n5:audience n6:vereniging ;
+	n5:keywords "erkenning", "subsidies", "personen met een beperking" ;
+	n9:follows n10:procedure ;
+	n9:hasInput n10:benodigdheden ;
+	dct:abstract "Organisaties die zorg en ondersteuning bieden aan kwetsbare Gentenaren kunnen een erkenning en eventueel een werkingssubsidie aanvragen." ;
+	dct:coverage n15:BEL_GNE ;
+	dct:description "<p>Stad Gent wil de werking van instellingen en verenigingen ondersteunen om via hen kwetsbare inwoners van Gent te helpen om zo lang en kwalitatief mogelijk zelfstandig en in de thuissituatie te leven. Het stadsbestuur wil ook de sociale inclusie, emancipatie en de toegang tot sociale grondrechten van personen met een beperking bevorderen.</p> <p>In het kader van dit reglement uit de Stad Gent, aan de hand van een erkenning, zijn waardering voor, en biedt het stadsbestuur ondersteuning aan, instellingen en verenigingen die zorg en ondersteuning bieden aan kwetsbare Gentenaren en zelforganisaties van personen met een beperking.</p> <p>Gentse zelfhulpgroepen, diensten en zelforganisaties van personen met een beperking die hoofdzakelijk werken met vrijwilligers kunnen bijkomend een werkingssubsidie ontvangen.</p> <p>&nbsp;</p>" ;
+	dct:spatial n8:261 ;
+	dct:title "Erkenning en subsidiëring van sociale voorzieningen en personen met een beperking" .

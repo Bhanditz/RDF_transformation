@@ -1,0 +1,32 @@
+@prefix n5: <http://purl.org/dc/terms/> .
+@prefix n11:	<https://stad.gent/id/products/283/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix n15: <https://stad.gent/id/products/gebieden/> .
+@prefix n14: <https://stad.gent/data/products/283/> .
+@prefix n13: <https://stad.gent/data/products/> .
+@prefix n2:	<https://stad.gent/id/products/> .
+@prefix n10:	<http://stad.gent/data/ns/themas/> .
+@prefix n3:	<http://schema.org/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix n7:	<https://stad.gent/node/> .
+@prefix n4:	<http://stad.gent/data/ns/gpdc/doelgroepen/> .
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix n8:	<http://purl.org/vocab/cpsv#> .
+@prefix xsdh: <http://www.w3.org/2001/XMLSchema#> .
+@prefix n9: <http://publications.europa.eu/resource/authority/place/> .
+
+n2:283 rdf:type n8:PublicService ;
+	n5:created "2014-09-03T13:29:41+02:00" ;
+	n5:modified "2015-09-11T11:26:09+02:00" ;
+	rdfs:isDefinedBy n13:283, n14:procedure ;
+	n5:spatial n15:261 ;
+	foaf:page n7:20535 ;
+	n5:identifier "283" ;
+	n5:subject n10:onderwijs-kinderopvang ;
+	n3:audience n4:burger ;
+	n3:keywords "Kinderopvang" ;
+	n5:description "<p>De stedelijke Dienst voor Onthaalouders biedt dagopvang in een onthaalgezin voor kinderen van 0 tot 3 jaar van wie de ouders door werk of andere omstandigheden hun kind overdag niet zelf kunnen opvangen. Eventueel kunnen we ook kinderen tot 12 jaar opvangen buiten de schooluren en tijdens de vakantieperiodes opvangen.</p> <p>In een onthaalgezin kunnen maximum vier voltijdse kinderen opgevangen worden. De onthaalouders bepalen zelf de openingsuren en op welke dagen ze kinderopvang aanbieden.</p> <p>De Dienst voor Onthaalouders biedt geen kortstondige opvang bij crisissituaties en doet geen babysitting.</p>" ;
+	n5:title "Algemene info rond een onthaalgezin" ;
+	n8:follows n11:procedure ;
+	n5:abstract "Kinderen van 0 tot 3 jaar kunnen voor dagopvang terecht in een onthaalgezin." ;
+	n5:coverage n9:BEL_GNE .
